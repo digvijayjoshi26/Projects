@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "41A74AA91C45637A00479FD5"
+               BlueprintIdentifier = "41A74AEB1C456AC400479FD5"
                BuildableName = "HitList.app"
                BlueprintName = "HitList"
                ReferencedContainer = "container:HitList.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "41A74AC51C45637A00479FD5"
+               BlueprintIdentifier = "41A74B021C456AC400479FD5"
                BuildableName = "HitListTests.xctest"
                BlueprintName = "HitListTests"
                ReferencedContainer = "container:HitList.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "41A74AD01C45637A00479FD5"
+               BlueprintIdentifier = "41A74B0D1C456AC400479FD5"
                BuildableName = "HitListUITests.xctest"
                BlueprintName = "HitListUITests"
                ReferencedContainer = "container:HitList.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "41A74AA91C45637A00479FD5"
+            BlueprintIdentifier = "41A74AEB1C456AC400479FD5"
             BuildableName = "HitList.app"
             BlueprintName = "HitList"
             ReferencedContainer = "container:HitList.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "41A74AA91C45637A00479FD5"
+            BlueprintIdentifier = "41A74AEB1C456AC400479FD5"
             BuildableName = "HitList.app"
             BlueprintName = "HitList"
             ReferencedContainer = "container:HitList.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "41A74AA91C45637A00479FD5"
+            BlueprintIdentifier = "41A74AEB1C456AC400479FD5"
             BuildableName = "HitList.app"
             BlueprintName = "HitList"
             ReferencedContainer = "container:HitList.xcodeproj">
