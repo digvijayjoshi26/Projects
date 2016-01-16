@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="50" verticalCompressionResistancePriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="jXT-a1-vNY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="579"/>
+                                <animations/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fpH-4h-ZIg">
+                                <rect key="frame" x="0.0" y="579" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcE-WS-95P">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="44"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="JyZ-hn-dZk"/>
+                                            <constraint firstAttribute="height" constant="44" id="TIq-sG-h9M"/>
+                                        </constraints>
+                                        <state key="normal" title="Camera"/>
+                                        <connections>
+                                            <action selector="useCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xXT-gm-Rtw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOt-JB-qk4">
+                                        <rect key="frame" x="296" y="0.0" width="79" height="44"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="79" id="6Sy-aA-mXV"/>
+                                            <constraint firstAttribute="height" constant="44" id="MMv-HB-o32"/>
+                                        </constraints>
+                                        <state key="normal" title="Camera roll"/>
+                                        <connections>
+                                            <action selector="userCameraRoll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cMB-OU-aFD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4xa-uL-pAF"/>
+                                    <constraint firstAttribute="trailing" secondItem="bOt-JB-qk4" secondAttribute="trailing" id="E56-il-2fI"/>
+                                    <constraint firstItem="mcE-WS-95P" firstAttribute="top" secondItem="fpH-4h-ZIg" secondAttribute="top" id="Gf2-bi-0Vl"/>
+                                    <constraint firstItem="mcE-WS-95P" firstAttribute="leading" secondItem="fpH-4h-ZIg" secondAttribute="leading" id="Rd9-jI-Do4"/>
+                                    <constraint firstItem="bOt-JB-qk4" firstAttribute="top" secondItem="fpH-4h-ZIg" secondAttribute="top" id="Sab-bb-CdU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="fpH-4h-ZIg" secondAttribute="trailing" id="9Pq-0c-dez"/>
+                            <constraint firstItem="fpH-4h-ZIg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GjZ-FJ-rLP"/>
+                            <constraint firstAttribute="trailing" secondItem="jXT-a1-vNY" secondAttribute="trailing" id="SNa-sj-VDX"/>
+                            <constraint firstItem="jXT-a1-vNY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XqO-8A-EJl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fpH-4h-ZIg" secondAttribute="bottom" id="faM-Pp-J4N"/>
+                            <constraint firstItem="fpH-4h-ZIg" firstAttribute="top" secondItem="jXT-a1-vNY" secondAttribute="bottom" id="glD-89-LNe"/>
+                            <constraint firstItem="jXT-a1-vNY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zBl-eS-gEM"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageView" destination="jXT-a1-vNY" id="aPC-YL-cC6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445.5" y="341.5"/>
+        </scene>
+    </scenes>
+</document>
